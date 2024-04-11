@@ -1,0 +1,14 @@
+{
+  "name": "advice-generator-app-main",
+  "version": "1.0.0",
+  "description": "frontend mentor challenge",
+  "main": "index.js",
+  "scripts": {
+    "tw": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
