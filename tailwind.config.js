@@ -10,6 +10,9 @@ module.exports = {
         "dark-grayish-blue": "hsl(217, 19%, 24%)",
         "dark-blue": "hsl(218, 23%, 16%)",
       },
+      boxShadowColor: {
+        "neon-green": "hsl(150, 100%, 66%)",
+      },
     },
     fontFamily: {
       manrope: ["Manrope", "sans-serif"],
