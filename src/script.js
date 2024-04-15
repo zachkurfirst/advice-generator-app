@@ -7,7 +7,10 @@ const fetchBtn = document.querySelector("button");
 const fetchAdvice = async () => {
   const response = await fetch(URL);
   const data = await response.json();
-  return data;
+  console.log('data:', data)
+  const advice = data.slip
+  console.log('advice slip:', advice)
+  renderAdvice(advice)
 };
 
 const renderAdvice = async (adviceSlip) => {
@@ -17,12 +20,5 @@ const renderAdvice = async (adviceSlip) => {
   adviceQuote.textContent = advice;
 };
 
-const generateAdvice = async () => {
-  const adviceData = await fetchAdvice();
-  const advice = adviceData.slip;
-  console.log(advice);
-  renderAdvice(advice);
-};
-
-fetchBtn.addEventListener("click", generateAdvice);
-document.addEventListener("DOMContentLoaded", generateAdvice);
+document.addEventListener("DOMContentLoaded", fetchAdvice);
+fetchBtn.addEventListener("click", fetchAdvice);
