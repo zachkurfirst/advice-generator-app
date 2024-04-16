@@ -7,10 +7,10 @@ const fetchBtn = document.querySelector("button");
 const fetchAdvice = async () => {
   const response = await fetch(URL);
   const data = await response.json();
-  console.log('data:', data)
-  const advice = data.slip
-  console.log('advice slip:', advice)
-  renderAdvice(advice)
+  // console.log("data:", data);
+  const advice = data.slip;
+  // console.log("advice slip:", advice);
+  renderAdvice(advice);
 };
 
 const renderAdvice = async (adviceSlip) => {
