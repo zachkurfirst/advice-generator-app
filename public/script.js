@@ -11,6 +11,14 @@ const fetchAdvice = async () => {
   const advice = data.slip;
   // console.log("advice slip:", advice);
   renderAdvice(advice);
+  fetchBtn.disabled = true;
+  fetchBtn.classList.add("bg-light-cyan");
+  // console.log('button: disabled')
+  setTimeout(() => {
+    fetchBtn.disabled = false;
+    fetchBtn.classList.remove("bg-light-cyan");
+    // console.log('button: enabled')
+  }, 2000);
 };
 
 const renderAdvice = async (adviceSlip) => {
