@@ -26,7 +26,7 @@ Hello there! Welcome to my solution to the [Advice generator challenge on Fronte
 
 ### Screenshot
 
-![Screenshot of advice generator app](/images/advice-generator-screenshot.png)
+![Screenshot of advice generator app](public/images/advice-generator-screenshot.png)
 
 ### Links
 
@@ -39,12 +39,9 @@ Hello there! Welcome to my solution to the [Advice generator challenge on Fronte
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- [Tailwind](https://tailwindcss.com/) - CSS framework
+- [Vercel](https://vercel.com/) - Deployment
+
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
