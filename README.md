@@ -37,6 +37,7 @@ Hello there! Welcome to my solution to the [Advice generator challenge on Fronte
 
 ### Built with
 
+- [Advice Slip JSON API](https://api.adviceslip.com/ "Advice Slip JSON API")
 - Semantic HTML5 markup
 - [Tailwind](https://tailwindcss.com/ "Tailwind CSS website") - CSS framework
 - Vanilla JavaScript
@@ -84,7 +85,6 @@ I want to continue engaging projects that require working with third-party API's
 - [Vercel Deployment Documentation](https://vercel.com/docs/deployments/overview "Vercel Deployment Documentation")
 - [CSS Reference: box-shadow](https://cssreference.io/property/box-shadow/ "CSS Reference box-shadow docs")
 - [Tutorials Point: How to disable button element dynamically using JavaScript?](https://www.tutorialspoint.com/how-to-disable-button-element-dynamically-using-javascript "How to disable button element dynamically using JavaScript?")
-
 
 ## Author
 
