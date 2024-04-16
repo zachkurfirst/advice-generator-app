@@ -2,3 +2,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn-hover {
+    @apply shadow-[0_0_10px_4px_rgba(0,0,0,0.2)] hover:shadow-neon-green hover:transition-all hover:rotate-90 hover:duration-300;
+  }
+}

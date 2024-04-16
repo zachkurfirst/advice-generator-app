@@ -5,24 +5,30 @@ const adviceQuote = document.querySelector("q");
 const fetchBtn = document.querySelector("button");
 
 const fetchAdvice = async () => {
+  // DISABLE BUTTON
+  fetchBtn.classList.replace("bg-neon-green", "bg-light-cyan");
+  fetchBtn.disabled = true;
+  fetchBtn.classList.toggle("btn-hover");
+  // console.log('button: disabled');
+
+  // CALL API
   const response = await fetch(URL);
   const data = await response.json();
   // console.log("data:", data);
   const advice = data.slip;
   // console.log("advice slip:", advice);
   renderAdvice(advice);
-  fetchBtn.disabled = true;
-  fetchBtn.classList.add("bg-light-cyan");
-  // console.log('button: disabled')
+
+  // ENABLE BUTTON
   setTimeout(() => {
     fetchBtn.disabled = false;
-    fetchBtn.classList.remove("bg-light-cyan");
-    // console.log('button: enabled')
+    fetchBtn.classList.replace("bg-light-cyan", "bg-neon-green");
+    fetchBtn.classList.toggle("btn-hover");
+    // console.log('button: enabled');
   }, 2000);
 };
 
 const renderAdvice = async (adviceSlip) => {
-  // destructure the object
   const { id, advice } = adviceSlip;
   adviceNumber.textContent = id;
   adviceQuote.textContent = advice;

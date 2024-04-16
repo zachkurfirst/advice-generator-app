@@ -556,6 +556,22 @@ video {
   --tw-contain-style:  ;
 }
 
+.btn-hover{
+  --tw-shadow: 0 0 10px 4px rgba(0,0,0,0.2);
+  --tw-shadow-colored: 0 0 10px 4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.btn-hover:hover{
+  --tw-rotate: 90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-shadow-color: hsl(150, 100%, 66%);
+  --tw-shadow: var(--tw-shadow-colored);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
 .fixed{
   position: fixed;
 }
@@ -653,6 +669,11 @@ video {
 .bg-dark-grayish-blue{
   --tw-bg-opacity: 1;
   background-color: hsl(217 19% 24% / var(--tw-bg-opacity));
+}
+
+.bg-light-cyan{
+  --tw-bg-opacity: 1;
+  background-color: hsl(193 38% 86% / var(--tw-bg-opacity));
 }
 
 .bg-neon-green{
