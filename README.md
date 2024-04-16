@@ -30,8 +30,8 @@ Hello there! Welcome to my solution to the [Advice generator challenge on Fronte
 
 ### Links
 
-- [View live site](https://zachkurfirst-advice-generator.vercel.app/ "Advice generator app")
-- [View solution on Frontend Mentor](https://www.frontendmentor.io/solutions/advice-generator-using-vanilla-javascript-asyncawait-udOKpps7KI "Advice generator app solution on Frontend Mentor")
+- [View live site](https://zachkurfirst-advice-generator.vercel.app/ "Advice Generator by Zach Kurfirst")
+- [View solution on Frontend Mentor](https://www.frontendmentor.io/solutions/advice-generator-using-vanilla-javascript-asyncawait-udOKpps7KI "Frontend Mentor | Advice Generator using Vanilla JavaScript (async/await) coding challenge solution")
 
 ## My process
 
@@ -39,7 +39,7 @@ Hello there! Welcome to my solution to the [Advice generator challenge on Fronte
 
 - [Advice Slip JSON API](https://api.adviceslip.com/ "Advice Slip JSON API")
 - Semantic HTML5 markup
-- [Tailwind](https://tailwindcss.com/ "Tailwind CSS website") - CSS framework
+- [Tailwind](https://tailwindcss.com/ "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.") - CSS framework
 - Vanilla JavaScript
 - [Vercel](https://vercel.com/ "Vercel website") - Deployment
 
@@ -58,7 +58,7 @@ Below is a snippet from the `index.html` for the dice icon button. (Note: I've r
 
 In the past, I've typically used third-party API's when working with web frameworks such as React. In this challenge, I was working in vanilla JS, so it was interesting to see how you can render API data via DOM manipulation.
 
-Below are the two functions that fetch and render the `id` and `advice` from the advice API.
+Below are the two functions that fetch and render the `id` and `advice` from the advice API. (Note: I've removed the button styling aspects of the function to specifically call out the API interaction)
 
 ```js
 const fetchAdvice = async () => {
@@ -81,10 +81,11 @@ I want to continue engaging projects that require working with third-party API's
 
 ### Useful resources
 
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation "Tailwind CSS Documentation")
-- [Vercel Deployment Documentation](https://vercel.com/docs/deployments/overview "Vercel Deployment Documentation")
-- [CSS Reference: box-shadow](https://cssreference.io/property/box-shadow/ "CSS Reference box-shadow docs")
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation "Installation - Tailwind CSS")
+- [Vercel Deployment Documentation](https://vercel.com/docs/deployments/overview "Deploying to Vercel")
+- [CSS Reference: box-shadow](https://cssreference.io/property/box-shadow/ "box-shadow - CSS Reference")
 - [Tutorials Point: How to disable button element dynamically using JavaScript?](https://www.tutorialspoint.com/how-to-disable-button-element-dynamically-using-javascript "How to disable button element dynamically using JavaScript?")
+- [Digital Ocean: How To Modify Attributes, Classes, and Styles in the DOM](https://www.digitalocean.com/community/tutorials/how-to-modify-attributes-classes-and-styles-in-the-dom#modifying-classes "How To Modify Attributes, Classes, and Styles in the DOM  | DigitalOcean" )
 
 ## Author
 
