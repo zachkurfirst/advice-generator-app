@@ -82,7 +82,9 @@ I want to continue engaging projects that require working with third-party API's
 
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation "Tailwind CSS Documentation")
 - [Vercel Deployment Documentation](https://vercel.com/docs/deployments/overview "Vercel Deployment Documentation")
-- [CSS Reference box-shadow](https://cssreference.io/property/box-shadow/ "CSS Reference box-shadow docs")
+- [CSS Reference: box-shadow](https://cssreference.io/property/box-shadow/ "CSS Reference box-shadow docs")
+- [Tutorials Point: How to disable button element dynamically using JavaScript?](https://www.tutorialspoint.com/how-to-disable-button-element-dynamically-using-javascript "How to disable button element dynamically using JavaScript?")
+
 
 ## Author
 
