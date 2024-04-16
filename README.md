@@ -1,6 +1,6 @@
 # Advice Generator App
 
-Hello there! Welcome to my solution to the [Advice generator challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db "Advice Generator app challenge").
+Hello there! Welcome to my solution to the [Advice generator challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db "Advice Generator App challenge").
 
 ## Table of contents
 
@@ -31,7 +31,7 @@ Hello there! Welcome to my solution to the [Advice generator challenge on Fronte
 ### Links
 
 - [View live site](https://zachkurfirst-advice-generator.vercel.app/ "Advice generator app")
-- []()
+- [View solution on Frontend Mentor](https://www.frontendmentor.io/solutions/advice-generator-using-vanilla-javascript-asyncawait-udOKpps7KI "Advice generator app solution on Frontend Mentor")
 
 ## My process
 
